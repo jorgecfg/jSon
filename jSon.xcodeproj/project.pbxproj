@@ -22,6 +22,7 @@
 		6611A27E17FDD764001C4E04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6611A25D17FDD764001C4E04 /* UIKit.framework */; };
 		6611A28617FDD764001C4E04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6611A28417FDD764001C4E04 /* InfoPlist.strings */; };
 		6611A28817FDD764001C4E04 /* jSonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A28717FDD764001C4E04 /* jSonTests.m */; };
+		BA77ACC117FF467000CF6856 /* Nuvem.png in Resources */ = {isa = PBXBuildFile; fileRef = BA77ACC017FF467000CF6856 /* Nuvem.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6611A28317FDD764001C4E04 /* jSonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jSonTests-Info.plist"; sourceTree = "<group>"; };
 		6611A28517FDD764001C4E04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6611A28717FDD764001C4E04 /* jSonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jSonTests.m; sourceTree = "<group>"; };
+		BA77ACC017FF467000CF6856 /* Nuvem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nuvem.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		6611A25F17FDD764001C4E04 /* jSon */ = {
 			isa = PBXGroup;
 			children = (
+				BA77ACC017FF467000CF6856 /* Nuvem.png */,
 				6611A26817FDD764001C4E04 /* AppDelegate.h */,
 				6611A26917FDD764001C4E04 /* AppDelegate.m */,
 				6611A26B17FDD764001C4E04 /* Main_iPhone.storyboard */,
@@ -235,6 +238,7 @@
 				6611A27517FDD764001C4E04 /* Images.xcassets in Resources */,
 				6611A26D17FDD764001C4E04 /* Main_iPhone.storyboard in Resources */,
 				6611A26417FDD764001C4E04 /* InfoPlist.strings in Resources */,
+				BA77ACC117FF467000CF6856 /* Nuvem.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +478,7 @@
 				6611A28D17FDD764001C4E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6611A28E17FDD764001C4E04 /* Build configuration list for PBXNativeTarget "jSonTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +487,7 @@
 				6611A29017FDD764001C4E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

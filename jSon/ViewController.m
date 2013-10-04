@@ -52,6 +52,20 @@
     
     NSLog(@"-------------------");
     NSLog(@"apiVersion: %@", [jSon objectForKey:@"apiVersion"]);
+    
+    
+    UILabel *Cidade = (UILabel *)[self.view viewWithTag:1];
+    UILabel *Temperatura = (UILabel *)[self.view viewWithTag:2];
+    
+    
+    Cidade.text =[(NSDictionary *)jSonData objectForKey:@"location"];
+    NSString *TempC = [NSString stringWithFormat:@"%.1fº",(([[(NSDictionary *)jSonData objectForKey:@"temperature"] doubleValue] -32) / 1.8)];
+    Temperatura.text = TempC;
+    
+    NSLog(@"TempC: %@", TempC);
+    // C
+    //-32 *1.8
+    
 }
 
 @end
